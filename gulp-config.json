@@ -1,23 +1,14 @@
 {
-  "vendorPaths": {
-    "js": [
-      "bower_components/simple-gui-template/assets/js/main.js"
-    ],
-    "css": [
-      "bower_components/simple-gui-template/assets/js/main.css"
-    ],
-    "fonts": [
-      "bower_components/simple-gui-template/assets/fonts/*.{otf,eot,svg,ttf,woff,woff2}"
-    ]
-  },
   "paths": {
     "js": [
+      "bower_components/simple-gui-template/assets/js/main.js",
       "src/js/main.js"
     ],
     "css": [
       "src/sass/**/*.scss"
     ],
     "fonts": [
+      "bower_components/simple-gui-template/assets/fonts/*.{otf,eot,svg,ttf,woff,woff2}",
       "src/fonts/*.{otf,eot,svg,ttf,woff,woff2}"
     ],
     "images": [
