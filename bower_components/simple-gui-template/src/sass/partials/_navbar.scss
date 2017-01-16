@@ -19,6 +19,9 @@
       width: auto;
     }
   }
+  .main-menu {
+    display: inline-block;
+  }
   a {
     color: $primary-color;
   }
@@ -58,7 +61,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    li {
+    li:not(.dropdown-menu) {
       display: inline-block;
       a {
         color: $primary-color;
@@ -67,10 +70,10 @@
         margin: 0 -2px;
         display: inline-block;
         font-size: 20px;
-        line-height: 58px;
+        line-height: 52px;
         vertical-align: bottom;
         border-bottom: 6px solid transparent;
-        padding: 0 16px;
+        padding: 6px 16px 0;
         -webkit-transition: border-color .2s;
         transition: border-color .2s;
         &:hover {
@@ -107,18 +110,19 @@
 
 .left-menu {
   float: left;
-  width: 0;
+  width: 300px;
   -webkit-transition: all .2s; /* Safari */
   transition: all .2s;
+  margin-left: -300px;
   > div {
-    background-color: #FFF;
+    background-color: $bright-white;
     padding: 0;
     position: fixed;
     height: 100%;
     width: inherit;
     overflow: hidden;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     .sidenav-logo {
       height: 48px;
       img {
@@ -175,7 +179,7 @@
 }
 
 body.sidebar-active .left-menu {
-  width: 300px;
+  margin-left: 0;
   > div {
     -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
@@ -198,7 +202,7 @@ body.sidebar-active .left-menu {
       height: 50px;
     }
     .logo {
-      padding: 10px 0;
+      padding: 10.5px 0;
     }
     a.sidenav-toggle {
       padding: 0 25px;
@@ -211,6 +215,8 @@ body.sidebar-active .left-menu {
     }
   }
   .left-menu {
+    width: 245px;
+    margin-left: -245px;
     > div {
       top: 64px;
     }
@@ -219,7 +225,6 @@ body.sidebar-active .left-menu {
     }
   }
   body.sidebar-active .left-menu {
-    width: 245px;
     > div {
       box-shadow: 2px 3px 5px rgba(0, 0, 0, .26);
     }
@@ -228,7 +233,12 @@ body.sidebar-active .left-menu {
 
 @media only screen and (min-width: 1160px) {
   .navbar {
-    padding: 0 25px;
+    z-index: 3;
+    .logo {
+      padding: 7.5px 0;
+      img {
+        height: 46px;
+      }
+    }
   }
 }
-

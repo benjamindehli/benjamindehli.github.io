@@ -18,10 +18,10 @@ ul.list {
     .list-item-content {
       display: inline-block;
       font-size: 14pt;
-      line-height: 17px;
+      line-height: 14pt;
       small {
         display: block;
-        min-height: 16px;
+        min-height: 19px;
         font-size: 10pt;
       }
       &.single-line {
@@ -35,8 +35,6 @@ ul.list {
       font-size: 26px;
       vertical-align: text-bottom;
       .button {
-        line-height: 32px;
-        font-size: 26px;
         margin: 0;
       }
     }
@@ -47,9 +45,6 @@ ul.list {
       vertical-align: text-bottom;
       .button {
         float: right;
-        line-height: 32px;
-        font-size: 26px;
-        vertical-align: text-bottom;
       }
     }
   }
@@ -57,6 +52,18 @@ ul.list {
     li {
       &:hover {
         @include bright-gray($dark-color);
+      }
+    }
+  }
+  &.box-list {
+    li {
+      a {
+        margin: -10px;
+        padding: 10px;
+        color: $default-text-color;
+      }
+      .list-item-content {
+        display: block;
       }
     }
   }
@@ -82,6 +89,7 @@ ul.list {
           float: right;
           min-width: 42px;
           text-align: center;
+          line-height: 40px;
           @media only screen and (min-width: 750px) {
             content: none;
             min-width: 0;
@@ -130,6 +138,7 @@ ul.list {
         }
         &:after {
           content: "\f00d";
+          line-height: 38px;
         }
       }
     }
