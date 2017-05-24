@@ -1,0 +1,50 @@
+ [
+ 	{
+ 		"content": "GitHub",
+ 		"iconClass": "fa fa-github",
+ 		"title": "GitHub profile for Benjamin Dehli",
+ 		"link": "https://github.com/benjamindehli"
+ 	},
+ 	{
+ 		"content": "Google Plus",
+ 		"iconClass": "fa fa-google-plus",
+ 		"title": "Google Plus page for Benjamin Dehli",
+ 		"link": "https://plus.google.com/+BenjaminDehli1/"
+ 	},
+ 	{
+ 		"content": "Facebook",
+ 		"iconClass": "fa fa-facebook",
+ 		"title": "Facebook profile for Benjamin Dehli",
+ 		"link": "https://www.facebook.com/benjamindehli1"
+ 	},
+ 	{
+ 		"content": "Twitter",
+ 		"iconClass": "fa fa-twitter",
+ 		"title": "Twitter page for Benjamin Dehli",
+ 		"link": "https://twitter.com/BenjaminDehli"
+ 	},
+ 	{
+ 		"content": "LinkedIn",
+ 		"iconClass": "fa fa-linkedin",
+ 		"title": "LinkedIn page for Benjamin Dehli",
+ 		"link": "https://www.linkedin.com/in/benjamindehli"
+ 	},
+ 	{
+ 		"content": "YouTube",
+ 		"iconClass": "fa fa-youtube",
+ 		"title": "YouTube channel for Benjamin Dehli",
+ 		"link": "https://www.youtube.com/channel/UCMjcUjI-KFfsO71urBY1E4A"
+ 	},
+ 	{
+ 		"content": "Tumblr",
+ 		"iconClass": "fa fa-tumblr",
+ 		"title": "Tumblr page for Benjamin Dehli",
+ 		"link": "http://benjamindehli.tumblr.com/"
+ 	},
+ 	{
+ 		"content": "Flickr",
+ 		"iconClass": "fa fa-flickr",
+ 		"title": "Flickr page for Benjamin Dehli",
+ 		"link": "https://www.flickr.com/photos/projectdehli/"
+ 	}
+ ]
