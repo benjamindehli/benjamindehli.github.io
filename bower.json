@@ -14,10 +14,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "devDependencies": {
-    "simple-gui-template": "^0.2.7",
-    "masonry": "^4.1.0",
-    "imagesloaded": "^4.1.0"
-  }
+  ]
 }
