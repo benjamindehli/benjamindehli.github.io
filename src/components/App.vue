@@ -3,6 +3,8 @@
     <main-navigation></main-navigation>
     <main id="mainContent">
       <div class="main-content">
+        <h1 id="home">benjamindehli.github.io (Benjamin Dehli)</h1>
+        <h2 id="projects">Projects:</h2>
         <project-cards></project-cards>
       </div>
       <main-footer></main-footer>
