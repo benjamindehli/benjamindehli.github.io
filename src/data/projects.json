@@ -1,0 +1,77 @@
+ [
+ 	{
+ 		"title": "FlowGig",
+ 		"links": [
+ 			{
+ 				"title": "Website",
+ 				"iconClass": "fa fa-external-link",
+ 				"link": "http://www.flowgig.com"
+ 			},
+ 			{
+ 				"title": "GitHub repository",
+ 				"iconClass": "fa fa-github",
+ 				"link": "https://github.com/flowgig/flowgig"
+ 			}
+ 		]
+ 	},
+ 	{
+ 		"title": "quarkGUI",
+ 		"links": [
+ 			{
+ 				"title": "Demo site",
+ 				"iconClass": "fa fa-external-link",
+ 				"link": "https://benjamindehli.github.io/quarkGUI/"
+ 			},
+ 			{
+ 				"title": "GitHub repository",
+ 				"iconClass": "fa fa-github",
+ 				"link": "https://github.com/benjamindehli/quarkGUI"
+ 			}
+ 		]
+ 	},
+ 	{
+ 		"title": "Set One's Cap",
+ 		"links": [
+ 			{
+ 				"title": "Website",
+ 				"iconClass": "fa fa-external-link",
+ 				"link": "http://www.setonescap.com"
+ 			},
+ 			{
+ 				"title": "GitHub repository",
+ 				"iconClass": "fa fa-github",
+ 				"link": "https://github.com/SetOnesCap/SetOnesCap"
+ 			}
+ 		]
+ 	},
+ 	{
+ 		"title": "ChordPro editor",
+ 		"links": [
+ 			{
+ 				"title": "Demo site",
+ 				"iconClass": "fa fa-external-link",
+ 				"link": "https://benjamindehli.github.io/ChordPro-test/"
+ 			},
+ 			{
+ 				"title": "GitHub repository",
+ 				"iconClass": "fa fa-github",
+ 				"link": "https://github.com/pur/pur-GUI"
+ 			}
+ 		]
+ 	},
+ 	{
+ 		"title": "pur",
+ 		"links": [
+ 			{
+ 				"title": "GitHub repository for Pur",
+ 				"iconClass": "fa fa-github",
+ 				"link": "https://github.com/pur/pur"
+ 			},
+ 			{
+ 				"title": "GitHub repository for Pur GUI",
+ 				"iconClass": "fa fa-github",
+ 				"link": "https://github.com/pur/pur-GUI"
+ 			}
+ 		]
+ 	}
+ ]
