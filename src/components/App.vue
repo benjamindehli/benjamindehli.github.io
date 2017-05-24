@@ -19,8 +19,7 @@
     name: 'app',
     components: {
       mainNavigation: MainNavigation,
-      mainFooter: MainFooter,
-      modals: Modals
+      mainFooter: MainFooter
     },
     data () {
       return {
