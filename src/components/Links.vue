@@ -21,7 +21,8 @@
                 let buttonsElement = '';
                 this.links.forEach(function (link) {
                     let button = {
-                        type: 'minimal'
+                        type: 'minimal',
+                        theme: 'primary'
                     };
                     if (link.content !== undefined){
                         button.content = link.content;
