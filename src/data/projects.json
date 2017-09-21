@@ -20,12 +20,12 @@
  			{
  				"title": "Demo site",
  				"iconClass": "fa fa-external-link",
- 				"link": "https://benjamindehli.github.io/quarkGUI-docs/"
+ 				"link": "https://quarkgui.github.io/"
  			},
  			{
  				"title": "GitHub repository",
  				"iconClass": "fa fa-github",
- 				"link": "https://github.com/benjamindehli/quarkGUI"
+ 				"link": "https://github.com/quarkGUI/quarkGUI"
  			}
  		]
  	},
