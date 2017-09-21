@@ -38,7 +38,7 @@
                 return quark.Organisms.Cards.Card.getModule({
                     title: project.title,
                     theme: 'primary',
-                    content: quark.Organisms.Menus.ListMenu.getModule({
+                    content: quark.Organisms.Lists.List.getModule({
                         hover: true,
                         listItems: this.getListItems(project)
                     })
