@@ -1,14 +1,14 @@
 ---
-import decentSamplerInstruments from "../data/decentSampler.json";
+import decentSamplerRepos from "../data/decentSampler.json";
 ---
 
 <h3>Decent Sampler Instruments</h3>
 <span class="blank-line"></span>
 <ul>
     {
-        decentSamplerInstruments.map((instrument) => (
+        decentSamplerRepos.map((repo) => (
             <li>
-                <a href={instrument.url}>{instrument.name}</a>
+                <a href={repo.url}>{repo.name}</a>
             </li>
         ))
     }
