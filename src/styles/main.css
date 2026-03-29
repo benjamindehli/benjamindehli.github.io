@@ -1,10 +1,22 @@
+:root {
+    --background-color: #191820;
+    --foreground-color: #f0f6fc;
+    --red: #f55b77;
+    --orange: #ff7e33;
+    --yellow: #e0af68;
+    --green: #9ece6a;
+    --cyan: #7dcfff;
+    --blue: #7aa2f7;
+    --purple: #bb9af7;
+}
+
 html {
     margin: 0;
     padding: 0;
 }
 body {
-    background-color: #191820;
-    color: #f0f6fc;
+    background-color: var(--background-color);
+    color: var(--foreground-color);
     font-family: monospace;
     font-size: 16px;
     line-height: 1em;
@@ -22,14 +34,14 @@ span.blank-line {
     line-height: 1em;
     font-weight: 400;
     margin-inline: 0;
-    margin-block: 1em;
-    padding: 0;
+    margin-block: 0;
+    padding-block: 0.5em;
     display: flex;
     &::before {
-        color: #a5d6ff;
+        color: var(--blue);
     }
     &::after {
-        color: rgba(255, 255, 255, 0.25);
+        color: rgba(255, 255, 255, 0.15);
         content: counter(line-number);
         counter-increment: line-number;
         display: inline-block;
@@ -38,6 +50,11 @@ span.blank-line {
         order: -1;
         text-align: right;
         width: 3ch;
+    }
+    &:hover {
+        &::after {
+            color: rgba(255, 255, 255, 0.25);
+        }
     }
 }
 
@@ -51,19 +68,20 @@ span.blank-line {
     height: 1em;
 }
 a {
-    color: #ff9800;
+    color: var(--orange);
     text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
 }
-a:hover {
-    text-decoration: underline;
-}
+
 a::before {
     content: "[";
-    color: #a5d6ff;
+    color: var(--green);
 }
 a::after {
     content: "] (" attr(href) ")";
-    color: #a5d6ff;
+    color: var(--green);
 }
 h1::before {
     content: "#";
