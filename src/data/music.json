@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FlowChord",
+        "url": "https://github.com/flowgig/FlowChord"
+    },
+    {
+        "name": "Logic Pro Scripts",
+        "url": "https://github.com/benjamindehli/LogicPro-Scripts"
+    },
+    {
+        "name": "MIDI Chord Visualizer",
+        "url": "https://github.com/benjamindehli/midi-chord-visualizer"
+    },
+    {
+        "name": "Music Theory",
+        "url": "https://github.com/benjamindehli/music-theory"
+    },
+    {
+        "name": "Music Utils",
+        "url": "https://github.com/benjamindehli/music-utils"
+    }
+]
