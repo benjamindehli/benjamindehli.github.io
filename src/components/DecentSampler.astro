@@ -1,0 +1,15 @@
+---
+import decentSamplerInstruments from "../data/decentSampler.json";
+---
+
+<h3>Decent Sampler Instruments</h3>
+<span class="blank-line"></span>
+<ul>
+    {
+        decentSamplerInstruments.map((instrument) => (
+            <li>
+                <a href={instrument.url}>{instrument.name}</a>
+            </li>
+        ))
+    }
+</ul>
