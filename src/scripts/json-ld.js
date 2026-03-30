@@ -1,4 +1,4 @@
-function generateJsonLdElementFromJsObject(jsObject) {
+export function generateJsonLdElementFromJsObject(jsObject) {
     return `<script type="application/ld+json">${JSON.stringify(jsObject)}</script>`;
 }
 
