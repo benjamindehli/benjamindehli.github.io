@@ -1,0 +1,6 @@
+---
+import decentSamplerRepos from "../data/decentSampler.json";
+import { generateJsonLdItemListForRepositories } from "../scripts/json-ld.js";
+---
+
+<Fragment set:html={generateJsonLdItemListForRepositories(decentSamplerRepos, "Decent Sampler Instruments")} />
