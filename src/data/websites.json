@@ -1,6 +1,7 @@
 [
     {
         "name": "Dehli Musikk",
-        "url": "https://github.com/benjamindehli/dehli-musikk"
+        "url": "https://github.com/benjamindehli/dehli-musikk",
+        "jsonLdId": "https://www.dehlimusikk.no/"
     }
 ]
