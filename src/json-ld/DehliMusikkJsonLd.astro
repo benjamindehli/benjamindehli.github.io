@@ -1,0 +1,6 @@
+---
+import { generateJsonLdElementFromJsObject } from "../scripts/json-ld.js";
+import dehliMusikkJsonLd from "../data/dehliMusikkJsonLd.json";
+---
+
+<Fragment set:html={generateJsonLdElementFromJsObject(dehliMusikkJsonLd)} />

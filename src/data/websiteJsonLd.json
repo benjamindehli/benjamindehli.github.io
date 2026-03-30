@@ -1,0 +1,27 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "benjamindehli.github.io",
+    "url": "https://benjamindehli.github.io/",
+    "author": {
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
+    },
+    "sameAs": [
+        "https://www.dehlimusikk.no/",
+        "https://store.dehlimusikk.no/",
+        "https://www.facebook.com/DehliMusikk/",
+        "https://x.com/BenjaminDehli",
+        "https://www.instagram.com/benjamindehli/",
+        "https://youtube.com/@BenjaminDehli",
+        "https://www.linkedin.com/in/benjamindehli/",
+        "https://vimeo.com/benjamindehli",
+        "https://flickr.com/photos/projectdehli/",
+        "https://benjamindehli.tumblr.com/",
+        "https://github.com/benjamindehli",
+        "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f",
+        "https://soundcloud.com/benjamin-dehli",
+        "https://ko-fi.com/benjamindehli",
+        "https://credits.muso.ai/profile/39f5096c-b6bd-41d0-9248-d959da8c4b81",
+        "https://credits.muso.ai/profile/120086b1-1215-4d5c-a61d-d992e0b2289e"
+    ]
+}
