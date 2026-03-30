@@ -1,4 +1,10 @@
 ---
+import BenjaminDehliJsonLd from "../json-ld/BenjaminDehliJsonLd.astro";
+import DehliMusikkJsonLd from "../json-ld/DehliMusikkJsonLd.astro";
+import ItemListDecentSamplerJsonLd from "../json-ld/ItemListDecentSamplerJsonLd.astro";
+import ItemListMusicJsonLd from "../json-ld/ItemListMusicJsonLd.astro";
+import ItemListWebsitesJsonLd from "../json-ld/ItemListWebsitesJsonLd.astro";
+import WebSiteJsonLd from "../json-ld/WebSiteJsonLd.astro";
 import "../styles/main.css";
 ---
 
@@ -17,6 +23,12 @@ import "../styles/main.css";
         <link rel="manifest" href="/manifest.json" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2b5797" />
         <meta name="theme-color" content="#ffffff" />
+        <WebSiteJsonLd />
+        <BenjaminDehliJsonLd />
+        <DehliMusikkJsonLd />
+        <ItemListDecentSamplerJsonLd />
+        <ItemListMusicJsonLd />
+        <ItemListWebsitesJsonLd />
     </head>
     <body>
         <slot />
