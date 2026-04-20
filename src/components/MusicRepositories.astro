@@ -1,0 +1,15 @@
+---
+import musicRepositories from "../data/musicRepositories.json";
+---
+
+<h3>Music Repositories</h3>
+<span class="blank-line"></span>
+<ul>
+    {
+        musicRepositories.map((repository) => (
+            <li>
+                <a href={repository.url}>{repository.name}</a>
+            </li>
+        ))
+    }
+</ul>

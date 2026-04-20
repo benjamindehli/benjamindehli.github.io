@@ -1,6 +1,6 @@
 ---
-import musicRepos from "../data/music.json";
+import musicRepositories from "../data/musicRepositories.json";
 import { generateJsonLdItemListForRepositories } from "../scripts/json-ld.js";
 ---
 
-<Fragment set:html={generateJsonLdItemListForRepositories(musicRepos, "Music Repositories")} />
+<Fragment set:html={generateJsonLdItemListForRepositories(musicRepositories, "Music Repositories")} />

@@ -1,0 +1,15 @@
+---
+import websiteRepositories from "../data/websiteRepositories.json";
+---
+
+<h3>Website Repositories</h3>
+<span class="blank-line"></span>
+<ul>
+    {
+        websiteRepositories.map((repository) => (
+            <li>
+                <a href={repository.url}>{repository.name}</a>
+            </li>
+        ))
+    }
+</ul>
