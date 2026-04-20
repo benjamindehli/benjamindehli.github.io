@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Dehli Musikk",
+        "url": "https://www.dehlimusikk.no/",
+        "jsonLdId": "https://www.dehlimusikk.no/"
+    },
+    {
+        "name": "Music Theory",
+        "url": "https://benjamindehli.github.io/music-theory/"
+    },
+    {
+        "name": "MIDI Chord Visualizer",
+        "url": "https://benjamindehli.github.io/midi-chord-visualizer/"
+    },
+    {
+        "name": "FlowChord",
+        "url": "https://flowgig.github.io/FlowChord/"
+    }
+]

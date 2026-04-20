@@ -1,0 +1,15 @@
+---
+import websites from "../data/websites.json";
+---
+
+<h2>Websites</h2>
+<span class="blank-line"></span>
+<ul>
+    {
+        websites.map((website) => (
+            <li>
+                <a href={website.url}>{website.name}</a>
+            </li>
+        ))
+    }
+</ul>
