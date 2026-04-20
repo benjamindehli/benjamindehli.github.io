@@ -1,5 +1,5 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "benjamindehli.github.io",
     "url": "https://benjamindehli.github.io/",
