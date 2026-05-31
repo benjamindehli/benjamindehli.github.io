@@ -28,3 +28,6 @@ pnpm-debug.log*
 
 # yarn cache
 .yarn/
+
+# Claude
+.claude/
