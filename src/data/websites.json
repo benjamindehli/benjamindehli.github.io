@@ -5,16 +5,20 @@
         "jsonLdId": "https://www.dehlimusikk.no/"
     },
     {
-        "name": "Music Theory",
-        "url": "https://benjamindehli.github.io/music-theory/"
-    },
-    {
         "name": "microSAMPLER Editor / Librarian",
         "url": "https://benjamindehli.github.io/microsampler-editor-librarian/"
     },
     {
         "name": "MIDI Chord Visualizer",
         "url": "https://benjamindehli.github.io/midi-chord-visualizer/"
+    },
+    {
+        "name": "Music Theory",
+        "url": "https://benjamindehli.github.io/music-theory/"
+    },
+    {
+        "name": "SidStation ASID",
+        "url": "https://benjamindehli.github.io/sidstation-asid/"
     },
     {
         "name": "FlowChord",
