@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://benjamindehli.github.io/</loc>
-        <lastmod>2026-04-20</lastmod>
+        <lastmod>2026-08-10</lastmod>
+    </url>
+    <url>
+        <loc>https://benjamindehli.github.io/microsampler-editor-librarian/</loc>
+    </url>
+    <url>
+        <loc>https://benjamindehli.github.io/midi-chord-visualizer/</loc>
     </url>
     <url>
         <loc>https://benjamindehli.github.io/music-theory/</loc>
@@ -12,5 +18,8 @@
     </url>
     <url>
         <loc>https://benjamindehli.github.io/music-theory/scales/</loc>
+    </url>
+    <url>
+        <loc>https://benjamindehli.github.io/sidstation-asid/</loc>
     </url>
 </urlset>
