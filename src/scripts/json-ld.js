@@ -2,27 +2,27 @@ export function generateJsonLdElementFromJsObject(jsObject) {
     return `<script type="application/ld+json">${JSON.stringify(jsObject)}</script>`;
 }
 
-function generateJsonLdItemListElementForRepository(repository, position) {
+function generateJsonLdItemListElementForWebsite(website, position) {
     return {
         "@type": "ListItem",
-        "@id": getJsonLdIdForRepository(repository),
+        "@id": getJsonLdIdForWebsite(website),
         position: position,
-        name: repository.name,
-        url: repository.url
+        name: website.name,
+        url: website.url
     };
 }
 
-function getJsonLdIdForRepository(repository) {
-    return repository.jsonLdId || repository.url;
+function getJsonLdIdForWebsite(website) {
+    return website.jsonLdId || website.url;
 }
 
-export function generateJsonLdItemListForRepositories(repositories, name) {
+export function generateJsonLdItemListForWebsites(websites, name) {
     const itemList = {
         "@context": "https://schema.org",
         "@type": "ItemList",
         name: name,
-        numberOfItems: repositories.length,
-        itemListElement: repositories.map((repository, index) => generateJsonLdItemListElementForRepository(repository, index + 1))
+        numberOfItems: websites.length,
+        itemListElement: websites.map((website, index) => generateJsonLdItemListElementForWebsite(website, index + 1))
     };
     return generateJsonLdElementFromJsObject(itemList);
 }

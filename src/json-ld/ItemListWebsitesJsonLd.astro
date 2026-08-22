@@ -1,6 +1,6 @@
 ---
 import websites from "../data/websites.json";
-import { generateJsonLdItemListForRepositories } from "../scripts/json-ld.js";
+import { generateJsonLdItemListForWebsites } from "../scripts/json-ld.js";
 ---
 
-<Fragment set:html={generateJsonLdItemListForRepositories(websites, "Websites")} />
+<Fragment set:html={generateJsonLdItemListForWebsites(websites, "Websites")} />
