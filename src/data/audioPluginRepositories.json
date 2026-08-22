@@ -45,6 +45,10 @@
         "jsonLdId": "https://store.dehlimusikk.no/l/omni-84"
     },
     {
+        "name": "SidStation ASID",
+        "url": "https://github.com/benjamindehli/sidstation-asid"
+    },
+    {
         "name": "Strykebrett",
         "url": "https://github.com/benjamindehli/Strykebrett",
         "jsonLdId": "https://store.dehlimusikk.no/l/strykebrett"
