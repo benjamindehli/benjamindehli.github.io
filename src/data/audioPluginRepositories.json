@@ -45,6 +45,11 @@
         "jsonLdId": "https://store.dehlimusikk.no/l/omni-84"
     },
     {
+        "name": "Overtonium",
+        "url": "https://github.com/benjamindehli/overtonium",
+        "jsonLdId": "https://www.dehlimusikk.no/products/overtonium/#product"
+    },
+    {
         "name": "SidStation ASID",
         "url": "https://github.com/benjamindehli/sidstation-asid"
     },
