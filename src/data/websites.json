@@ -7,22 +7,22 @@
     {
         "name": "4-track Music Box",
         "url": "https://benjamindehli.github.io/4-track-music-box/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/4-track-music-box"
+        "jsonLdId": "https://benjamindehli.github.io/4-track-music-box/#website"
     },
     {
         "name": "4-track Glockenspiel",
         "url": "https://benjamindehli.github.io/4-track-glockenspiel/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/4-track-glockenspiel"
+        "jsonLdId": "https://benjamindehli.github.io/4-track-glockenspiel/#website"
     },
     {
         "name": "4-track Toy Piano",
         "url": "https://benjamindehli.github.io/4-track-toy-piano/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/4-track-toy-piano"
+        "jsonLdId": "https://benjamindehli.github.io/4-track-toy-piano/#website"
     },
     {
         "name": "EDB-Orgel",
         "url": "https://benjamindehli.github.io/EDB-Orgel/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/edb-orgel"
+        "jsonLdId": "https://benjamindehli.github.io/EDB-Orgel/#website"
     },
     {
         "name": "Elektrisk Salmesykkel",
@@ -32,16 +32,17 @@
     {
         "name": "Lo-fi Tape Piano",
         "url": "https://benjamindehli.github.io/lo-fi-tape-piano/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/lo-fi-tape-piano"
+        "jsonLdId": "https://benjamindehli.github.io/lo-fi-tape-piano/#website"
     },
     {
         "name": "MaskinTrommer",
         "url": "https://benjamindehli.github.io/MaskinTrommer/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/maskintrommer"
+        "jsonLdId": "https://benjamindehli.github.io/MaskinTrommer/#website"
     },
     {
         "name": "microSAMPLER Editor / Librarian",
-        "url": "https://benjamindehli.github.io/microsampler-editor-librarian/"
+        "url": "https://benjamindehli.github.io/microsampler-editor-librarian/",
+        "jsonLdId": "https://benjamindehli.github.io/microsampler-editor-librarian/#website"
     },
     {
         "name": "MIDI Chord Visualizer",
@@ -50,7 +51,7 @@
     {
         "name": "Midnight Wurli",
         "url": "https://benjamindehli.github.io/MidnightWurli/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/midnight-wurli"
+        "jsonLdId": "https://benjamindehli.github.io/MidnightWurli/#website"
     },
     {
         "name": "Music Theory",
@@ -59,7 +60,7 @@
     {
         "name": "Omni-84",
         "url": "https://benjamindehli.github.io/Omni-84/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/omni-84"
+        "jsonLdId": "https://benjamindehli.github.io/Omni-84/#website"
     },
     {
         "name": "Overtonium",
@@ -68,27 +69,28 @@
     },
     {
         "name": "SidStation ASID",
-        "url": "https://benjamindehli.github.io/sidstation-asid/"
+        "url": "https://benjamindehli.github.io/sidstation-asid/",
+        "jsonLdId": "https://benjamindehli.github.io/sidstation-asid/#website"
     },
     {
         "name": "Strykebrett",
         "url": "https://benjamindehli.github.io/Strykebrett/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/strykebrett"
+        "jsonLdId": "https://benjamindehli.github.io/Strykebrett/#website"
     },
     {
         "name": "StyloPoly",
         "url": "https://benjamindehli.github.io/StyloPoly/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/stylopoly"
+        "jsonLdId": "https://benjamindehli.github.io/StyloPoly/#website"
     },
     {
         "name": "SubC",
         "url": "https://benjamindehli.github.io/SubC/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/subc"
+        "jsonLdId": "https://benjamindehli.github.io/SubC/#website"
     },
     {
         "name": "Voltage Controlled Cassette Organ",
         "url": "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/voltage-controlled-cassette-organ"
+        "jsonLdId": "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/#website"
     },
     {
         "name": "FlowChord",

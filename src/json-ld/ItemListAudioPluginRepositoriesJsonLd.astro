@@ -1,0 +1,6 @@
+---
+import audioPluginRepositories from "../data/audioPluginRepositories.json";
+import { generateJsonLdItemListForWebsites } from "../scripts/json-ld.js";
+---
+
+<Fragment set:html={generateJsonLdItemListForWebsites(audioPluginRepositories, "Audio Plugin Repositories")} />
