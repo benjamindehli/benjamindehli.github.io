@@ -3,17 +3,17 @@ export function generateJsonLdElementFromJsObject(jsObject) {
 }
 
 function generateJsonLdItemListElementForWebsite(website, position) {
-    return {
+    const listItem = {
         "@type": "ListItem",
-        "@id": getJsonLdIdForWebsite(website),
         position: position,
         name: website.name,
         url: website.url
     };
-}
-
-function getJsonLdIdForWebsite(website) {
-    return website.jsonLdId || website.url;
+    // jsonLdId identifies the entity the list item refers to, not the list item itself
+    if (website.jsonLdId) {
+        listItem.item = { "@id": website.jsonLdId };
+    }
+    return listItem;
 }
 
 export function generateJsonLdItemListForWebsites(websites, name) {
