@@ -24,11 +24,11 @@ body {
     padding: 1em;
     counter-set: line-number 0;
 }
-body > h1,
-body > h2,
-body > h3,
-body > p,
-body > ul > li,
+main > h1,
+main > h2,
+main > h3,
+main > p,
+main > ul > li,
 span.blank-line {
     font-size: 1em;
     line-height: 1em;
