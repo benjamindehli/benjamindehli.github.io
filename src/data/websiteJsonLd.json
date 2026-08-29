@@ -1,8 +1,11 @@
 {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "benjamindehli.github.io",
+    "name": "Benjamin Dehli",
+    "alternateName": "benjamindehli.github.io",
     "url": "https://benjamindehli.github.io/",
+    "description": "Norwegian keyboard player, composer, and music producer. Browse Benjamin Dehli's open-source Decent Sampler instruments, music tools, and projects.",
+    "inLanguage": "en",
     "author": {
         "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
     },
