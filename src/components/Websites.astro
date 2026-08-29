@@ -8,7 +8,7 @@ import websites from "../data/websites.json";
     {
         websites.map((website) => (
             <li>
-                <a href={website.url}>{website.name}</a>
+                <a href={website.url} aria-label={`${website.name} website`}>{website.name}</a>
             </li>
         ))
     }

@@ -8,7 +8,7 @@ import audioPluginRepositories from "../data/audioPluginRepositories.json";
     {
         audioPluginRepositories.map((repository) => (
             <li>
-                <a href={repository.url}>{repository.name}</a>
+                <a href={repository.url} aria-label={`${repository.name} repository on GitHub`}>{repository.name}</a>
             </li>
         ))
     }
