@@ -1,0 +1,6 @@
+---
+import musicRepositories from "../data/musicRepositories.json";
+import { generateJsonLdItemListForWebsites } from "../scripts/json-ld.js";
+---
+
+<Fragment set:html={generateJsonLdItemListForWebsites(musicRepositories, "Music Repositories")} />
