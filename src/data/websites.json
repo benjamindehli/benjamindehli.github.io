@@ -7,37 +7,44 @@
     {
         "name": "4-track Music Box",
         "url": "https://benjamindehli.github.io/4-track-music-box/",
-        "jsonLdId": "https://benjamindehli.github.io/4-track-music-box/#website"
+        "jsonLdId": "https://benjamindehli.github.io/4-track-music-box/#website",
+        "description": "A music box on cassette tape at normal and half speed, layering the original pitch an octave below"
     },
     {
         "name": "4-track Glockenspiel",
         "url": "https://benjamindehli.github.io/4-track-glockenspiel/",
-        "jsonLdId": "https://benjamindehli.github.io/4-track-glockenspiel/#website"
+        "jsonLdId": "https://benjamindehli.github.io/4-track-glockenspiel/#website",
+        "description": "A glockenspiel on cassette tape at normal and half speed, so every note also plays an octave down"
     },
     {
         "name": "4-track Toy Piano",
         "url": "https://benjamindehli.github.io/4-track-toy-piano/",
-        "jsonLdId": "https://benjamindehli.github.io/4-track-toy-piano/#website"
+        "jsonLdId": "https://benjamindehli.github.io/4-track-toy-piano/#website",
+        "description": "A Kalikå Leksakspiano on cassette tape at normal and half speed, playable an octave down"
     },
     {
         "name": "EDB-Orgel",
         "url": "https://benjamindehli.github.io/EDB-Orgel/",
-        "jsonLdId": "https://benjamindehli.github.io/EDB-Orgel/#website"
+        "jsonLdId": "https://benjamindehli.github.io/EDB-Orgel/#website",
+        "description": "Four digital synthesis types with the workflow of a drawbar organ crossed with an analog synth"
     },
     {
         "name": "Elektrisk Salmesykkel",
         "url": "https://benjamindehli.github.io/ElektriskSalmesykkel/",
-        "jsonLdId": "https://store.dehlimusikk.no/l/elektrisk-salmesykkel"
+        "jsonLdId": "https://store.dehlimusikk.no/l/elektrisk-salmesykkel",
+        "description": "A Yamaha L-20D electric harmonium with tremulant, noise and reverb, and an air supply that sags as more notes are held"
     },
     {
         "name": "Lo-fi Tape Piano",
         "url": "https://benjamindehli.github.io/lo-fi-tape-piano/",
-        "jsonLdId": "https://benjamindehli.github.io/lo-fi-tape-piano/#website"
+        "jsonLdId": "https://benjamindehli.github.io/lo-fi-tape-piano/#website",
+        "description": "A Louis Zwicki Pianette recorded to cassette through three microphones, with tape compression, wow and flutter"
     },
     {
         "name": "MaskinTrommer",
         "url": "https://benjamindehli.github.io/MaskinTrommer/",
-        "jsonLdId": "https://benjamindehli.github.io/MaskinTrommer/#website"
+        "jsonLdId": "https://benjamindehli.github.io/MaskinTrommer/#website",
+        "description": "Electronic drums from a Korg MS-20, Roland SH-09, Doepfer Dark Energy and Sequential Pro-One, with many samples per sound"
     },
     {
         "name": "microSAMPLER Editor / Librarian",
@@ -51,7 +58,8 @@
     {
         "name": "Midnight Wurli",
         "url": "https://benjamindehli.github.io/MidnightWurli/",
-        "jsonLdId": "https://benjamindehli.github.io/MidnightWurli/#website"
+        "jsonLdId": "https://benjamindehli.github.io/MidnightWurli/#website",
+        "description": "A Wurlitzer 200A played softly, sampled from the line out and a contact microphone that captures key clicks and pedal noise"
     },
     {
         "name": "Music Theory",
@@ -60,7 +68,8 @@
     {
         "name": "Omni-84",
         "url": "https://benjamindehli.github.io/Omni-84/",
-        "jsonLdId": "https://benjamindehli.github.io/Omni-84/#website"
+        "jsonLdId": "https://benjamindehli.github.io/Omni-84/#website",
+        "description": "The Suzuki Omnichord OM-84 sampled in full, from drums and bass to chords, keyboard and AutoStrum SonicStrings"
     },
     {
         "name": "Overtonium",
@@ -75,22 +84,26 @@
     {
         "name": "Strykebrett",
         "url": "https://benjamindehli.github.io/Strykebrett/",
-        "jsonLdId": "https://benjamindehli.github.io/Strykebrett/#website"
+        "jsonLdId": "https://benjamindehli.github.io/Strykebrett/#website",
+        "description": "A sampled Logan String Melody II string synthesiser with ensemble, phaser, echo and reverb"
     },
     {
         "name": "StyloPoly",
         "url": "https://benjamindehli.github.io/StyloPoly/",
-        "jsonLdId": "https://benjamindehli.github.io/StyloPoly/#website"
+        "jsonLdId": "https://benjamindehli.github.io/StyloPoly/#website",
+        "description": "A Dubreq Stylophone S-1 made polyphonic, blending its three voices with noise, vibrato and filters"
     },
     {
         "name": "SubC",
         "url": "https://benjamindehli.github.io/SubC/",
-        "jsonLdId": "https://benjamindehli.github.io/SubC/#website"
+        "jsonLdId": "https://benjamindehli.github.io/SubC/#website",
+        "description": "A Dreadbox Erebus v2 triangle oscillator run through saturation circuits and effects, in mono and stereo"
     },
     {
         "name": "Voltage Controlled Cassette Organ",
         "url": "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/",
-        "jsonLdId": "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/#website"
+        "jsonLdId": "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/#website",
+        "description": "A Korg CX-3 sampled through cassette tape, where wow, flutter and warble add organic movement to the drawbars"
     },
     {
         "name": "FlowChord",

@@ -9,6 +9,11 @@ function generateJsonLdItemListElementForWebsite(website, position) {
         name: website.name,
         url: website.url
     };
+    // The same sentence the list shows, so an engine reading only the markup
+    // still learns what each entry is rather than seeing a bare name
+    if (website.description) {
+        listItem.description = website.description;
+    }
     // jsonLdId identifies the entity the list item refers to, not the list item itself
     if (website.jsonLdId) {
         listItem.item = { "@id": website.jsonLdId };
