@@ -1,5 +1,10 @@
 ---
-import websites from "../data/websites.json";
+import websitesData from "../data/websites.json";
+
+// Only some entries carry a description, so the shape is declared rather than
+// inferred from the JSON: without it a missing key is a type error under strict.
+type Website = { name: string; url: string; jsonLdId?: string; description?: string };
+const websites = websitesData as Website[];
 ---
 
 <h2>Websites</h2>
@@ -8,7 +13,20 @@ import websites from "../data/websites.json";
     {
         websites.map((website) => (
             <li>
-                <a href={website.url} aria-label={`${website.name} website`}>{website.name}</a>
+                <span class="line">
+                    <span class="line-content">
+                        <a href={website.url} aria-label={`${website.name} website`}>{website.name}</a>
+                    </span>
+                </span>
+                {website.description && (
+                    <ul>
+                        <li>
+                            <span class="line">
+                                <span class="line-content description">{website.description}</span>
+                            </span>
+                        </li>
+                    </ul>
+                )}
             </li>
         ))
     }

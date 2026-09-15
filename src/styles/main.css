@@ -28,15 +28,17 @@ main > h1,
 main > h2,
 main > h3,
 main > p,
-main > ul > li,
+span.line,
 span.blank-line {
     font-size: 1em;
-    line-height: 1em;
+    /* One editor row is 2em tall, and that is the line-height rather than
+       padding, so soft-wrapped rows keep the same pitch as unwrapped ones. */
+    line-height: 2em;
     font-weight: 400;
     margin-inline: 0;
     margin-block: 0;
-    padding-block: 0.5em;
     display: flex;
+    align-items: baseline;
     &::before {
         color: var(--blue);
     }
@@ -63,9 +65,25 @@ ul {
     list-style: none;
     margin-block: 0;
 }
+/* A list item is only a container: each span.line inside it is one editor row,
+   so an item with a nested list occupies two numbered lines. */
+li {
+    display: block;
+}
+/* Everything after the line number is one text flow, so a long line soft-wraps
+   the way an editor wraps it: continuation rows line up under the line's text
+   instead of running under the gutter. */
+span.line-content {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+span.description {
+    color: rgba(240, 246, 252, 0.55);
+}
 span.blank-line {
     display: block;
-    height: 1em;
+    height: 2em;
 }
 a {
     color: var(--orange);
@@ -95,7 +113,12 @@ h3::before {
     content: "###";
     margin-right: 1ch;
 }
-li::before {
+li > span.line::before {
     content: "-";
     margin-right: 1ch;
+    flex: none;
+}
+/* A nested item is indented by two spaces in the markdown source. */
+li li > span.line::before {
+    margin-left: 2ch;
 }

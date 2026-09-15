@@ -8,7 +8,11 @@ import musicRepositories from "../data/musicRepositories.json";
     {
         musicRepositories.map((repository) => (
             <li>
-                <a href={repository.url} aria-label={`${repository.name} repository on GitHub`}>{repository.name}</a>
+                <span class="line">
+                    <span class="line-content">
+                        <a href={repository.url} aria-label={`${repository.name} repository on GitHub`}>{repository.name}</a>
+                    </span>
+                </span>
             </li>
         ))
     }
